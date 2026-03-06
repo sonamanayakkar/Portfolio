@@ -1,0 +1,135 @@
+.resumecontainer {
+    background: url("../images/bg/line.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.picturecontainer {
+    background: radial-gradient(circle at 0% 80%, #8971ff4a 10%, #8084ff24 20%, #9370fd19 30%, transparent 50%);
+    padding: 50px 5vw 0px 5vw;
+}
+
+.resumecontainer .head h2 {
+    position: relative;
+    color: rgb(194, 129, 255);
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.resumecontainer .head h2::before {
+    content: "Resume";
+    position: absolute;
+    z-index: -1;
+    font-size: 4rem;
+    font-weight: 900;
+    
+    bottom: -30px;
+    color: rgba(112, 112, 112, 0.385);
+
+}
+
+.resumecontainer .head h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    color: white;
+}
+
+.tree .boxes {
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    width: 50%;
+}
+
+.tree .boxes .info {
+    position: relative;
+    border: .5px rgba(200, 137, 255, 0.314) solid;
+    border-radius: 30px;
+    padding: 40px;
+    background: linear-gradient(180deg, hsla(0, 0%, 100%, .05), hsla(0, 0%, 100%, 0) 73.86%);
+}
+
+.tree .boxes2 {
+    margin-top: 100px;
+}
+
+.tree .boxes .info .year {
+    position: absolute;
+    top: -15%;
+    border: 1px solid rgba(232, 169, 255, 0.392);
+    padding: 5px 40px;
+
+}
+
+.tree .boxes .info .year h1 {
+    font-size: 1.2rem;
+    background: var(--violet-linearcolor);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+.tree .boxes .info p {
+    color: gainsboro;
+}
+
+.tree .boxes ul li {
+    list-style: inside;
+    color: white;
+}
+
+.tree .line {
+    position: relative;
+    border: 1px solid rgba(78, 57, 103, 0.405);
+}
+
+.tree .line .smallline {
+    border: 1px solid rgba(105, 90, 136, 0.47);
+    width: 12px;
+    height: 0;
+}
+
+.tree .line .dotbox {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.tree .line .dot {
+
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--violet-linearcolor);
+    animation: dot 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes dot {
+    to {
+        box-shadow: 0px 0px 2px 5px rgba(160, 160, 160, 0.366);
+    }
+}
+
+.tree .line .dotbox1 {
+    left: -18px;
+    top: 15%;
+}
+
+.tree .line .dotbox2 {
+    right: -18px;
+    top: 35%;
+}
+
+.tree .line .dotbox3 {
+    left: -18px;
+    top: 55%;
+}
+
+.tree .line .dotbox4 {
+    right: -18px;
+    top: 75%;
+}

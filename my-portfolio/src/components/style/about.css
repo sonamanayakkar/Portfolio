@@ -1,0 +1,35 @@
+.aboutcontainer {
+    background: radial-gradient(circle at 0% 40%, #8971ff4a 10%, #8084ff24 20%, #9370fd19 30%, transparent 50%);
+}
+
+.aboutcontainer .aboutletter {
+    position: relative;
+    z-index: 2;
+    transform-style: preserve-3d;
+
+}
+
+.aboutcontainer .aboutletter::before {
+    position: absolute;
+    content: "About";
+    bottom: -30px;
+    left: 0;
+    font-weight: 900;
+    font-size: 5rem;
+    color: rgba(128, 128, 128, 0.463);
+    z-index: -5;
+
+}
+
+
+
+.aboutcontainer .lists h5 {
+    color: white;
+}
+
+.aboutcontainer .lists li {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
