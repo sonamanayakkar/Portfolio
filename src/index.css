@@ -47,10 +47,12 @@ body {
   color: #fff;
 
 }
+
 .homecontainer .left .apps {
   padding: 20px;
 }
-.homecontainer .left .apps .app{
+
+.homecontainer .left .apps .app {
   border: 1px solid rgba(222, 144, 255, 0.445);
   box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.375);
   background-color: rgb(0, 0, 0);
@@ -63,15 +65,18 @@ body {
   transition: .2s ease;
   cursor: pointer;
 }
-.homecontainer .left .apps .app:hover{
+
+.homecontainer .left .apps .app:hover {
   transform: translateY(-10px);
-   box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
-   background-color: white;
+  box-shadow: 0px 0px 5px 5px rgb(0, 0, 0);
+  background-color: white;
 }
-.homecontainer .left .apps .app:hover i{
+
+.homecontainer .left .apps .app:hover i {
   color: black;
 }
-.homecontainer .left .apps .app i{
+
+.homecontainer .left .apps .app i {
   color: white;
   font-size: 1.3rem;
   transition: .2s ease;
@@ -151,10 +156,10 @@ body {
 }
 
 @keyframes circle {
-  to{
+  to {
     transform: rotate(360deg);
   }
-  
+
 
 }
 
@@ -204,28 +209,32 @@ body {
   transform: translate(0%, -50%);
   animation: four 1s ease 0s infinite alternate-reverse;
 }
+
 .homecontainer .css {
   top: 15%;
   right: 40px;
   transform: translate(-20px, -10%);
   animation: four 1s ease 0s infinite alternate-reverse;
 }
+
 .homecontainer .js {
   bottom: 12%;
   left: 60px;
-  
+
   animation: four 1s ease 0s infinite alternate-reverse;
 }
+
 .homecontainer .jquery {
   bottom: 10%;
   right: 40px;
   transform: translate(-20px, -10%);
   animation: four 1s ease 0s infinite alternate-reverse;
 }
+
 .homecontainer .express {
   top: 15%;
   left: 50px;
-  
+
   animation: four 1s ease 0s infinite alternate-reverse;
 }
 

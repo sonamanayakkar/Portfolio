@@ -4,7 +4,7 @@ import "./style/resume.css"
 const Resume = () => {
     return (
         <div className='resumecontainer container-fluid p-0' >
-            <div className="picturecontainer container-fluid m-0">
+            <div className="picturecontainer container-fluid m-0 d-flex flex-column justify-content-center align-items-center py-5" >
 
                 <div className="head text-center">
                     <h2 className='resume'>Resume</h2>
@@ -31,7 +31,7 @@ const Resume = () => {
                             <div className="dot dot1" ></div>
                         </div>
                         <div className="dotbox dotbox2">
-                            
+
                             <div className="dot dot1" ></div>
                             <div className="smallline"></div>
                         </div>
@@ -39,13 +39,13 @@ const Resume = () => {
                             <div className="smallline"></div>
                             <div className="dot dot1" ></div>
                         </div>
-                         <div className="dotbox dotbox4">
-                            
+                        <div className="dotbox dotbox4">
+
                             <div className="dot dot1" ></div>
                             <div className="smallline"></div>
                         </div>
 
-                        
+
                     </div>
                     <div className="boxes boxes2">
                         <div className="info">
@@ -67,6 +67,10 @@ const Resume = () => {
                         </div>
 
                     </div>
+                </div>
+
+                <div className=" button ">
+                    <a href="">Download CV</a>
                 </div>
             </div>
 

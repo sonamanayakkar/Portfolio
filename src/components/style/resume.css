@@ -23,7 +23,7 @@
     z-index: -1;
     font-size: 4rem;
     font-weight: 900;
-    
+
     bottom: -30px;
     color: rgba(112, 112, 112, 0.385);
 
@@ -132,4 +132,25 @@
 .tree .line .dotbox4 {
     right: -18px;
     top: 75%;
+}
+
+
+
+
+.resumecontainer .button {
+    background-color: rgba(131, 131, 131, 0.319);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 12px 6px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.resumecontainer .button a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    background: var(--violet-linearcolor);
+    border-radius: 5px;
+    padding: 10px 70px;
 }
